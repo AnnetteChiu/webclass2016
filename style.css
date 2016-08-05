@@ -2,9 +2,16 @@
 	color: #ff6666;
 	font-family: verdana;
     font-size: 20px;
-    position: absolute;
-    left: 100px;
-    top: 150px;
+    
+   
 
 }
 
+.class_center{
+	margin: 0px auto;
+	  text-align: center;
+	  color: #ff6666;
+	font-family: verdana;
+    font-size: 20px;
+
+}

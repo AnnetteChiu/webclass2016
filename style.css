@@ -1,6 +1,12 @@
-.awwsomered {
+.awsomered {
 	color: #ff6666;
 	font-family: verdana;
     font-size: 20px;
 
+}
+
+h2 {
+    position: absolute;
+    left: 100px;
+    top: 150px;
 }

@@ -6,14 +6,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- More examples can be found here http://getbootstrap.com/getting-started/#examples -->
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <script src="jquery-3.1.0.js" type="text/javascript"></script>
+    <script>
+
+    $(document).ready (function(){
+
+        $("bt").click(function(){
+        $("bt2").append("<li>append item </li> ");
+      });
+      
+        $("magicbutton").click(function(){
+        $("#container").css({"background-color": "yellow", "fount"})
+
+      });
+
+
+    }
+
+    
+
     <meta name="description" content="">
     <meta name="author" content="">
     <link rel="icon" href="favicon.ico">
 
-    <title> Open Web Design classes</title>
+    <title> Open Web Design classes </title>
 
     <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    
 
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <link href="css/ie10-viewport-bug-workaround.css" rel="stylesheet">
@@ -38,6 +57,8 @@
       <div class="container">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            
+
             <span class="sr-only">Navigation</span>
             <span class="icon-bar">Nav1</span>
             <span class="icon-bar">Nav2</span>
@@ -63,8 +84,8 @@
     <div class="jumbotron">
       <div class="container">
         <h1>Hello,rSquare</h1>
-        <p>Open WEB Classes</p>
-        <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more &raquo;</a></p>
+        <p id="bt2">Open WEB Classes</p>
+        <p id="bt" > <a class="btn btn-primary btn-lg" href="#" role="button">Learn more &raquo;</a></p>
       </div>
     </div>
 
